@@ -7,7 +7,7 @@
 /*---------------------------*/
 /*------- FontsStart --------*/
 /*---------------------------*/
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700italic,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 
 
@@ -37,14 +37,26 @@ html, body {
 /*---- Header Area Start ----*/
 /*---------------------------*/
 
-header.header {
+.header {
     position: relative;
     overflow: hidden;
     height: 100%;
-    background: url("../imges/bg.jpg");
+    background: url("../imges/Bike2.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
+
+.logo {
+    padding: 20px;
+    min-height: 90px;
+    max-height: 125px;
+    margin-left: 40px;
+}
+
+
+
+
+
 
 /*-- Navigation start --*/
 
