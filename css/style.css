@@ -106,9 +106,9 @@ p.about {
     width: 85%;
 }
 
-section#features h2 {
+section#safty h2, section#features h2, #acc h2 {
     font-family: "Oswald";
-    font-size: 40px;
+    font-size: 35px;
     padding-bottom: 15px;
     border-bottom: 3px solid #16E6F5;
     font-style: italic;
@@ -130,7 +130,7 @@ section#features ul {
 
 section#features ul li {
     display: inline-block;
-    margin: 40px 25px;
+    margin: 27px 10px 0;
     text-align: center;
 }
 
@@ -138,4 +138,53 @@ section#features ul li img {
     display: block;
     width: 70%;
     margin: auto
+}
+
+section#safty ul li img, #acc li img {
+    max-width: 50px;
+}
+
+
+section#safty ul {
+    list-style: none;
+}
+
+section#safty ul li, #acc ul li {
+    margin: 5px auto;
+    font-style: italic;
+    font-size: 22px;
+}
+
+#speces h2 {
+    font-family: "Oswald";
+    font-size: 35px;
+    padding-bottom: 15px;
+    font-style: italic;
+    margin-bottom: 20px
+}
+
+.box-spec {
+    overflow: hidden;
+}
+
+.box-spec {
+    overflow: hidden;
+    padding: 12px 0;
+    border-top: 3px solid #16E6F5;
+}
+
+.padding-0 {
+    padding: 0
+}
+#features, #speces, #acc, #safty {
+    overflow: hidden;
+    display: none
+}
+
+section.imgs-box img {
+    width: 100%;
+}
+
+.nav .active {
+    background: transparent;
 }
