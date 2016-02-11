@@ -33,14 +33,28 @@
     .navbar-default .navbar-nav>li>a {
         margin: 10px 10px;
         border-radius: 50%;
-        height: 90px;
-        width: 90px;
+        height: 84px;
+        width: 84px;
         text-align: center;
         line-height: 4;
         color: #fff;
         font-weight: 600;
         font-style: italic;
         font-size: 14px;
+        margin: 3px auto;
+        background: #313131;
+    }
+
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        color: #FFF;
+        background-color: transparent;
+    }
+
+    .navbar-nav>li {
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+        margin: 5px 5px;
     }
 
     .nav-active {
