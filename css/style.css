@@ -8,8 +8,7 @@
 /*------- FontsStart --------*/
 /*---------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700italic,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
-
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
 
 
 /*---------------------------*/
@@ -55,6 +54,7 @@ html, body {
 
 
 
+
 /*-- Navigation start --*/
 
 
@@ -72,7 +72,7 @@ html, body {
 
 /* About */
 
-.about {
+.background {
     background: #af5096;
     background: -moz-linear-gradient(top, #af5096 0%, #af5096 16%, #d13181 85%, #d13181 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, #af5096), color-stop(16%, #af5096), color-stop(85%, #d13181), color-stop(100%, #d13181));
@@ -81,7 +81,61 @@ html, body {
     background: -ms-linear-gradient(top, #af5096 0%, #af5096 16%, #d13181 85%, #d13181 100%);
     background: linear-gradient(to bottom, #af5096 0%, #af5096 16%, #d13181 85%, #d13181 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af5096', endColorstr='#d13181', GradientType=0 );
-    padding: 80px;
+    padding: 65px;
     color: #fff;
-    font-size: 18px
+    font-size: 18px;
+    overflow: hidden
+}
+
+.background2 {
+    background: #362a83;
+    background: -moz-linear-gradient(top, #362a83 0%, #572181 31%, #d13181 80%, #d13181 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #362a83), color-stop(31%, #572181), color-stop(80%, #d13181), color-stop(100%, #d13181));
+    background: -webkit-linear-gradient(top, #362a83 0%, #572181 31%, #d13181 80%, #d13181 100%);
+    background: -o-linear-gradient(top, #362a83 0%, #572181 31%, #d13181 80%, #d13181 100%);
+    background: -ms-linear-gradient(top, #362a83 0%, #572181 31%, #d13181 80%, #d13181 100%);
+    background: linear-gradient(to bottom, #362a83 0%, #572181 31%, #d13181 80%, #d13181 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#362a83', endColorstr='#d13181', GradientType=0 );
+    padding: 50px 65px;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+p.about {
+    width: 85%;
+}
+
+section#features h2 {
+    font-family: "Oswald";
+    font-size: 40px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #16E6F5;
+    font-style: italic;
+}
+
+section#features h2 span {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 3;
+    font-style: normal;
+    color: #d6d6d6;
+    font-weight: 300;
+    padding-left: 20px
+}
+
+section#features ul {
+    list-style: none;
+}
+
+section#features ul li {
+    display: inline-block;
+    margin: 40px 25px;
+    text-align: center;
+}
+
+section#features ul li img {
+    display: block;
+    width: 70%;
+    margin: auto
 }
