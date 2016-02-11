@@ -24,7 +24,8 @@
 html, body {
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
-    height: 100%
+    height: 100%;
+    font-weight: bold;
 }
 
 /*---------------------------*/
@@ -43,7 +44,6 @@ html, body {
     height: 100%;
     background: url("../imges/Bike2.jpg");
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .logo {
@@ -52,9 +52,6 @@ html, body {
     max-height: 125px;
     margin-left: 40px;
 }
-
-
-
 
 
 
@@ -69,3 +66,22 @@ html, body {
 /*---------------------------*/
 /*----- Header Area End -----*/
 /*---------------------------*/
+
+
+
+
+/* About */
+
+.about {
+    background: #af5096;
+    background: -moz-linear-gradient(top, #af5096 0%, #af5096 16%, #d13181 85%, #d13181 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #af5096), color-stop(16%, #af5096), color-stop(85%, #d13181), color-stop(100%, #d13181));
+    background: -webkit-linear-gradient(top, #af5096 0%, #af5096 16%, #d13181 85%, #d13181 100%);
+    background: -o-linear-gradient(top, #af5096 0%, #af5096 16%, #d13181 85%, #d13181 100%);
+    background: -ms-linear-gradient(top, #af5096 0%, #af5096 16%, #d13181 85%, #d13181 100%);
+    background: linear-gradient(to bottom, #af5096 0%, #af5096 16%, #d13181 85%, #d13181 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af5096', endColorstr='#d13181', GradientType=0 );
+    padding: 80px;
+    color: #fff;
+    font-size: 18px
+}
