@@ -3,21 +3,21 @@ $(document).ready(function () {
     "use strict";
 
     $(".imgs-box img").first().hover(function () {
-        $(this).attr("src", "../imges/icons/B5.jpg");
+        $(this).attr("src", "imges/ah.jpg");
     }, function () {
-        $(this).attr("src", "../imges/icons/B2.jpg");
+        $(this).attr("src", "imges/a.jpg");
     });
 
     $(".imgs-box .secImg").hover(function () {
-        $(this).attr("src", "../imges/icons/B6.jpg");
+        $(this).attr("src", "imges/bh.jpg");
     }, function () {
-        $(this).attr("src", "../imges/icons/B1.jpg");
+        $(this).attr("src", "imges/b.jpg");
     });
 
     $(".imgs-box img").last().hover(function () {
-        $(this).attr("src", "../imges/icons/B4.jpg");
+        $(this).attr("src", "imges/ch.jpg");
     }, function () {
-        $(this).attr("src", "../imges/icons/B3.jpg");
+        $(this).attr("src", "imges/c.jpg");
     });
 
 
