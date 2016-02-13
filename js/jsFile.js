@@ -23,22 +23,47 @@ $(document).ready(function () {
 
     $(".nav > li > a ").first().click(function () {
         $("#speces, #acc, #safty, #features").slideUp("slow");
-        $("#about").slideToggle("slow");
+        $("#about").slideDown("slow");
     });
 
     $(".nav > li > a.fea ").click(function () {
         $("#about,#speces, #acc, #safty").slideUp("slow");
-        $("#features").slideToggle("slow");
+        $("#features").slideDown("slow");
     });
 
-    $(".nav > li > a.acc ").click(function () {
+    $(".nav > li > a.safty").click(function () {
+        $("#about,#speces, #features,  #acc").slideUp("slow");
+        $("#safty").slideDown("slow");
+    });
+
+    $(".nav > li > a.acc").click(function () {
         $("#about,#speces, #safty,  #features").slideUp("slow");
-        $("#acc").slideToggle("slow");
+        $("#acc").slideDown("slow");
     });
 
     $(".nav > li > a").last().click(function () {
         $("#about,#features, #acc, #safty").slideUp("slow");
-        $("#speces").slideToggle("slow");
+        $("#speces").slideDown("slow");
     });
+
+    $(".nav > li > a").click(function () {
+        $(this).siblings().css({background: "transparent"});
+    });
+
+//    /* applyClickEvent */
+//    function applyClickEvent() {
+//        $('a[href*=#]').on('click', function (e) {
+//            e.preventDefault();
+//
+//            if ($($.attr(this, 'href')).length > 0) {
+//                $('html, body').animate({
+//                    scrollTop: $($.attr(this, 'href')).offset().top
+//                }, 1000);
+//            }
+//            return false;
+//        });
+//    }
+//    applyClickEvent();
+
 
 });
