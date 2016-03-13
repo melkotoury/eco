@@ -10,17 +10,88 @@
 @media only screen and (max-width : 320px) {
 
     /*-- Header Start --*/
+    img.img-responsive.side {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: auto;
+    }
 
     /*--  Header End  --*/
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .logo {
+        max-height: 90px;
+        margin: 0
+    }
+    .feaA {
+        margin-left: -5px;
+    }
 
+    a.safty span {
+        margin: -5px;
+    }
+
+    .abouA, .speA {
+        margin-left: -4px;
+    }
+    p.about {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    section#safty ul li, #acc ul li {
+        margin: 5px auto;
+        font-style: italic;
+        font-size: 17px;
+    }
+
+    section#safty h2, section#features h2, #acc h2 {
+        font-family: "Oswald";
+        font-size: 24px;
+        padding-bottom: 15px;
+        font-style: italic;
+    }
+
+    img.img-responsive.side {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: auto;
+    }
+
+
+    .navbar-nav>li {
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+        margin: 5px 5px;
+        display: inline-block;
+        overflow: hidden
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        margin: 10px 10px;
+        border-radius: 50%;
+        height: 49px;
+        width: 49px;
+        text-align: center;
+        line-height: 3.5;
+        color: #fff;
+        font-weight: 100;
+        font-style: italic;
+        font-size: 10px;
+        margin: 3px auto;
+        background: #0A0A0A;
+    }
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px)  {
+@media only screen and (min-width : 480px) and (max-width: 768px )  {
+
     nav.navbar.navbar-default {
         position: absolute;
         bottom: 0;
@@ -36,13 +107,13 @@
         height: 84px;
         width: 84px;
         text-align: center;
-        line-height: 4;
+        line-height: 5;
         color: #fff;
-        font-weight: 600;
+        font-weight: 100;
         font-style: italic;
         font-size: 14px;
         margin: 3px auto;
-        background: #313131;
+        background: #0a0a0a;
     }
 
     .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -55,6 +126,7 @@
         width: 90px;
         height: 90px;
         margin: 5px 5px;
+        display: inline-block
     }
 
     .nav-active {
