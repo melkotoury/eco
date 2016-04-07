@@ -341,9 +341,13 @@ The motor's supply speeds are as follows for each level of assistance.
                 <div class="row">
                     <div class="col-sm-12">
                         <ul>
-                            <li><a href="#">&nbsp;&nbsp;&nbsp;HotLine - 16148</a></li>
+                            <li><a href="#"><span class="text-big">&nbsp;&nbsp;&nbsp;Hotline - 16148</span></a></li>
                             <li>/</li>
-                            <li><a class="popup-modal" href="#test-modal" data-effect="mfp-zoom-out">Where to buy</a>
+                            <li><a href="ecobikes_catalogue.pdf" target="_blank" class="btn btn-default"><span class="text-big">Catalogue - كتالوج</span></a></li>
+                           
+                            <li>/</li>
+                            
+ <li><a class="popup-modal" href="#test-modal" data-effect="mfp-zoom-out"><span class="text-big">Where to buy<span></a>
                                 <div id="test-modal" class="white-popup mfp-hide" data-effect="mfp-zoom-out">
                                     <p><a class="popup-modal-dismiss pull-right" href="#"><i class="fa fa-times"></i></a></p>
                                     <div class="row">
@@ -371,9 +375,6 @@ The motor's supply speeds are as follows for each level of assistance.
 
                                 </div>
                             </li>
-                            <li>/</li>
-                            <li><a href="ecobikes_catalogue.pdf" target="_blank" class="btn btn-default">Catalogue - كتالوج</a></li>
-
                         </ul>
                     </div>
                 </div>
