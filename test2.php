@@ -1,65 +1,21 @@
 <?php
-
 if (isset($_POST['submit'])) {
+    $to = "melkotoury@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $tel = $_POST['tel'];
+    $gen = $_POST['gen'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $name . " " . $tel . " wrote the following:" . "\n\n" . $gen . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $name . "\n\n" . $gen . $_POST['message'];
 
-    $url = 'https://www.google.com/recaptcha/api/siteverify';
-    $secretkey = '6LeBb1AUAAAAAJPAHPjSJMuOEnB80iLET4K7q0Pc';
-    $response = file_get_contents($url.'?secret='.$secretkey.'&response='.$_POST["g-recaptcha-response"].'&remoteip='.$_SERVER["REMOTE_ADDR"]);
-    $data = json_decode($response);
-    
-    if (isset($data->success) AND $data->success == true) {
-            require 'phpmailer/PHPMailerAutoload.php';
-
-        try {
-            $to = "info@ecobikeseg.com"; // this is your Email address
-            $from = $_POST['email']; // this is the sender's Email address
-            $name = $_POST['name'];
-            $tel = $_POST['tel'];
-            $gen = $_POST['gen'];
-            $address = $_POST['address'];
-            $message = $_POST['message'];
-            $subject = "Form submission: " .$name;
-            $subject2 = "Copy of your form submission";
-
-    //we need to create an instance of PHPMailer
-            $mail = new PHPMailer();
-
-    //set where we are sending email
-            $mail->addAddress($to, "Ecobikes");
-
-    //set who is sending an email
-            $mail->setFrom($from, $name);
-
-    //set subject
-            $mail->Subject = $subject;
-
-    //type of email
-            $mail->isHTML(true);
-
-    //write email
-            $mail->Body = "<p>" . $message . "</p><br><br>" . "Contact Info: <br> <br>" . "Name: " . $name . "<br>" . "Telephone: " . $tel . "<br>" . "Gender: " . $gen . "<br>" . "Address: " . $address;
-
-    //include attachment
-
-    //send an email
-            if (!$mail->send()) {
-                echo "Something wrong happened!";
-            } else {
-                echo "Mail sent";
-            }
-        } catch (phpmailerException $exception) {
-            echo "Something wrong happened!" . "<br>" . $exception;
-
-        }
-                header('Location: index.php?CaptchaPass=true');
-                echo 'Congrats, You are not a robot , Your Message was Sent and we will get back to you';
-                
-    }else{
-                header('Location: index.php?CaptchaFail=true');
-                echo 'Oops, Please check the "I am not a robot" to make sure you are not a robot , Your Message was not Sent';
-
-    }
-    
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to, $subject, $message, $headers);
+    mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
 }
 ?>
 <!DOCTYPE html>
@@ -129,12 +85,7 @@ if (isset($_POST['submit'])) {
     <!-- BG-on -->
     <!-- BG-on -->
 
-<?php if (isset($_GET['CaptchaPass'])) { ?>
-    <p >Message Sent</p>
-<?php } ?>
-<?php if (isset($_GET['CaptchaFail'])) { ?>
-    <p >Captcha Failed. Please try again</p>
-<?php } ?>
+
 
 </section>
 
@@ -396,7 +347,7 @@ if (isset($_POST['submit'])) {
 
                         <li>/</li>
 
-                        <li><a class="popup-modal" href="#test-modal" data-effect="mfp-zoom-out"><span class="text-big">Contact Us<span></a>
+                        <li><a class="popup-modal" href="#test-modal" data-effect="mfp-zoom-out"><span class="text-big">Where to buy<span></a>
                             <div id="test-modal" class="white-popup mfp-hide" data-effect="mfp-zoom-out">
                                 <p><a class="popup-modal-dismiss pull-right" href="#"><i class="fa fa-times"></i></a></p>
                                 <div class="row">
@@ -404,7 +355,6 @@ if (isset($_POST['submit'])) {
                                         <form action="" method="post">
                                             <header>
                                                 <img class="img-responsive" src="imges/logo.png" style="text-align: center">
-                                               
                                             </header>
                                             <input class="form-control" type="text" placeholder="Name..." required name="name">
                                             <div style="border: 1px dashed #fff">
@@ -412,10 +362,9 @@ if (isset($_POST['submit'])) {
                                                 <input type="radio" name="gen" value="female">Female
                                             </div>
                                             <input class="form-control" type="tel" placeholder="Mobile... EX: +(200)123-4567-890" name="tel" required>
-                                            <input type="email" class="form-control" required name="email" placeholder="name@example.com">
-                                            <input type="text" class="form-control" name="address" placeholder="Location/address" required>
-                                            <textarea class="form-control" rows="4" cols="50" name="message" placeholder="Please add your message" required></textarea>
-                                            <div class="g-recaptcha" data-sitekey="6LeBb1AUAAAAANc-F7sr2RFiYWyiGcy-n3IxgBbl"></div>
+                                            <input type="email" class="form-control" required name="email" placeholder="@email">
+                                            <input type="text" class="form-control" name="message" placeholder="Location/adress" required>
+
 
 
                                             <input class="btn btn-defuclt" type="submit" name="submit" value="Send">
@@ -434,9 +383,6 @@ if (isset($_POST['submit'])) {
         <p class="text-left" style="font-size: 14px;font-weight:300; text-align:center">
             Mashroey Microfinance Consultancy Services Co. S.A.E & part of Ghabbour Automotive Group
         </p>
-        <p class="text-left" style="font-size: 14px;font-weight:300; text-align:center">
-            26 Shagaret Al Dor, Abu Al Feda, Zamalek, Giza Governorate
-        </p>
     </div>
 </footer>
 
@@ -454,8 +400,6 @@ if (isset($_POST['submit'])) {
 <script src="js/jquery.magnific-popup.min.js"></script>
 <!-- Custom JS file -->
 <script src="js/jsFile.js"></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
-
 </body>
 </html>
 

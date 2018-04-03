@@ -1,0 +1,157 @@
+
+L	php:S1135"4Complete the task associated to this "TODO" comment.(€øøáùÿÿÿÿ
+p	php:S2068"X'password' detected in this variable name, review this potentially hardcoded credential.(ñ¥ú®ıÿÿÿÿ
+^php:S107"GThis function has 8 parameters, which is greater than the 7 authorized.(ø£‡ıÿÿÿÿ
+y	php:S1448"fClass "PHPMailer" has 108 methods, which is greater than 20 authorized. Split it into smaller classes.(‰À©Ï
+g	php:S1142"OReduce the number of returns of this function 5, down to the maximum allowed 3.(úŒòÎøÿÿÿÿ
+g	php:S1142"OReduce the number of returns of this function 5, down to the maximum allowed 3.(ëÇ¼Òıÿÿÿÿ
+b	php:S1142"OReduce the number of returns of this function 5, down to the maximum allowed 3.(»±ßè
+b	php:S1142"OReduce the number of returns of this function 6, down to the maximum allowed 3.(Ã£Ï
+g	php:S1142"OReduce the number of returns of this function 4, down to the maximum allowed 3.(Êúšòüÿÿÿÿ
+g	php:S1142"OReduce the number of returns of this function 5, down to the maximum allowed 3.(á¼¿Îûÿÿÿÿ
+b	php:S1142"OReduce the number of returns of this function 5, down to the maximum allowed 3.(ÕÜÎ×
+A	php:S1066"/Merge this if statement with the enclosing one.(Àáœa
+B	php:S1066"/Merge this if statement with the enclosing one.(•Ô®ó
+B	php:S1066"/Merge this if statement with the enclosing one.(˜òëş
+G	php:S1066"/Merge this if statement with the enclosing one.(°ĞÒÊÿÿÿÿÿ
+G	php:S1066"/Merge this if statement with the enclosing one.(íÿ¸­úÿÿÿÿ
+B	php:S1066"/Merge this if statement with the enclosing one.(Ú·¼À
+g	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(ÃãšÅ
+l	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(’’Šÿøÿÿÿÿ
+g	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(â–«‡
+f	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(—ïÄ
+g	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.(å¦½¶
+g	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 58 to the 15 allowed.(Êî
+g	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(Ÿ©÷
+l	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.(æé—øÿÿÿÿ
+g	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.(€†ÿĞ
+l	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(Êúšòüÿÿÿÿ
+g	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.(«»
+M	php:S1599"5Remove the use of this variable variable "$$current".(øû¹£ıÿÿÿÿ
+M	php:S1599"5Remove the use of this variable variable "$$current".(¹ÅıÎùÿÿÿÿ
+Z	php:S1192"GDefine a constant instead of duplicating this literal "sha256" 6 times.(ª¶ñ
+m	php:S1192"ZDefine a constant instead of duplicating this literal "Content-Transfer-Encoding" 3 times.(õ»êˆ
+i	php:S1192"QDefine a constant instead of duplicating this literal "quoted-printable" 3 times.(×õÎşÿÿÿÿ
+`	php:S1192"NDefine a constant instead of duplicating this literal "sendmail_from" 3 times.(«ÑéX
+[	php:S1192"HDefine a constant instead of duplicating this literal "execute" 5 times.(ëù×†
+b	php:S1192"JDefine a constant instead of duplicating this literal "text/html" 8 times.(Ñ²€‘úÿÿÿÿ
+\	php:S1192"IDefine a constant instead of duplicating this literal "filename" 4 times.(êõÌ»
+_	php:S1192"GDefine a constant instead of duplicating this literal "detail" 3 times.(›»Åıÿÿÿÿ
+\	php:S1192"IDefine a constant instead of duplicating this literal "Reply-To" 5 times.(äæéŠ
+_	php:S1192"GDefine a constant instead of duplicating this literal "attach" 3 times.(›ÈÃªùÿÿÿÿ
+[	php:S1192"HDefine a constant instead of duplicating this literal "address" 3 times.(¥¤Áß
+f	php:S1192"NDefine a constant instead of duplicating this literal "empty_message" 3 times.(«»´÷ÿÿÿÿÿ
+]	php:S1192"JDefine a constant instead of duplicating this literal "/[\r\n]+/" 3 times.(§À­ã
+d	php:S1192"LDefine a constant instead of duplicating this literal "%s (%s): %s" 3 times.(™Ú©æşÿÿÿÿ
+c	php:S1192"KDefine a constant instead of duplicating this literal "video/mpeg" 3 times.(ìğ ©ùÿÿÿÿ
+^	php:S1192"KDefine a constant instead of duplicating this literal "alt_inline" 3 times.(§Íâ
+d	php:S1192"RDefine a constant instead of duplicating this literal "alt_inline_attach" 3 times.(éó§
+`	php:S1192"MDefine a constant instead of duplicating this literal "audio/x-aiff" 3 times.(¦ºà—
+e	php:S1192"RDefine a constant instead of duplicating this literal "extension_missing" 4 times.(¹…éÈ
+]	php:S1192"JDefine a constant instead of duplicating this literal "file_open" 3 times.(²øùâ
+o	php:S1192"WDefine a constant instead of duplicating this literal "application/x-director" 3 times.(øüĞıÿÿÿÿ
+^	php:S1192"KDefine a constant instead of duplicating this literal "text/plain" 9 times.(¤Ç—–
+`	php:S1192"MDefine a constant instead of duplicating this literal "Content-Type" 8 times.(˜‰¼
+p	php:S1192"XDefine a constant instead of duplicating this literal "application/x-httpd-php" 4 times.(™„å…üÿÿÿÿ
+^	php:S1192"FDefine a constant instead of duplicating this literal ";\r\n" 3 times.(Ä†Û–úÿÿÿÿ
+_	php:S1192"LDefine a constant instead of duplicating this literal "file_access" 3 times.(Øèí°
+[	php:S1192"HDefine a constant instead of duplicating this literal "dirname" 4 times.(êõÌ»
+[	php:S1192"HDefine a constant instead of duplicating this literal "openssl" 3 times.(¹…éÈ
+]	php:S1192"JDefine a constant instead of duplicating this literal "extension" 4 times.(êõÌ»
+j	php:S1192"WDefine a constant instead of duplicating this literal "application/postscript" 3 times.(ÜÆË–
+\	php:S1192"IDefine a constant instead of duplicating this literal "sendmail" 4 times.(ÌĞ˜˜
+]	php:S1192"JDefine a constant instead of duplicating this literal "/^(.*)$/m" 3 times.(àÉ³
+`	php:S1192"HDefine a constant instead of duplicating this literal "signing" 3 times.(‡ğ¼”úÿÿÿÿ
+f	php:S1192"SDefine a constant instead of duplicating this literal "multipart/related;" 4 times.(˜‰¼
+`	php:S1192"HDefine a constant instead of duplicating this literal "base64" 12 times.(®ƒ¶›ûÿÿÿÿ
+`	php:S1192"HDefine a constant instead of duplicating this literal "file://" 4 times.(ØÅ©üÿÿÿÿÿ
+r	php:S1192"ZDefine a constant instead of duplicating this literal "application/octet-stream" 10 times.(÷É×úıÿÿÿÿ
+c	php:S1192"KDefine a constant instead of duplicating this literal "audio/mpeg" 3 times.(ÇàıÙÿÿÿÿÿ
+g	php:S1192"TDefine a constant instead of duplicating this literal "smtp_connect_failed" 3 times.(”¤ŠÀ
+\	php:S1192"IDefine a constant instead of duplicating this literal "basename" 4 times.(êõÌ»
+Z	php:S1192"GDefine a constant instead of duplicating this literal "phrase" 3 times.(¨ËÇ¬
+a	php:S1192"NDefine a constant instead of duplicating this literal "\tboundary=\"" 8 times.(ô€¼Ù
+^	php:S1192"FDefine a constant instead of duplicating this literal "qmail" 6 times.(€¯ßüÿÿÿÿ
+^	php:S1192"KDefine a constant instead of duplicating this literal "image/jpeg" 3 times.(î¸«ß
+^	php:S1192"FDefine a constant instead of duplicating this literal "error" 4 times.(›»Åıÿÿÿÿ
+e	php:S1192"MDefine a constant instead of duplicating this literal "connect_host" 4 times.(àåîÂøÿÿÿÿ
+h	php:S1192"PDefine a constant instead of duplicating this literal "invalid_address" 5 times.(¸ôûÕúÿÿÿÿ
+^	php:S1192"KDefine a constant instead of duplicating this literal "alt_attach" 3 times.(ïÈÛ¤
+j	php:S1192"WDefine a constant instead of duplicating this literal "multipart/alternative;" 3 times.(¾ºš²
+^	php:S1192"KDefine a constant instead of duplicating this literal "attachment" 7 times.(·ÁÑ¿
+`	php:S1192"HDefine a constant instead of duplicating this literal "inline" 12 times.(îº–íûÿÿÿÿ
+r	php:S1488"_Immediately return this expression instead of assigning it to the temporary variable "$result".(‘”»
+w	php:S1488"dImmediately return this expression instead of assigning it to the temporary variable "$file_buffer".(îûé
+*	php:S2010"Replace "or" with "||".(éÓş
++	php:S2010"Replace "and" with "&&".(ÖİÀ
+*	php:S2010"Replace "and" with "&&".(ÈÔ½
+0	php:S2010"Replace "and" with "&&".(ßš‰áüÿÿÿÿ
+/	php:S2010"Replace "or" with "||".(­ìÁãüÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(¨Ù‘«
+*	php:S2010"Replace "or" with "||".(¨Ù‘«
+/	php:S2010"Replace "or" with "||".(­òüÿùÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(²ú«Ÿ
+*	php:S2010"Replace "and" with "&&".(²Û¬0
+0	php:S2010"Replace "and" with "&&".(ÔÔº„ûÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(ç¸¶ûÿÿÿÿ
+*	php:S2010"Replace "or" with "||".(ÑÒ—ã
++	php:S2010"Replace "and" with "&&".(À³º®
+0	php:S2010"Replace "and" with "&&".(ı‘¯Îıÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(½ÅÍ–
++	php:S2010"Replace "and" with "&&".(œ„´Á
+*	php:S2010"Replace "or" with "||".(›ò¿ª
++	php:S2010"Replace "and" with "&&".(é€–ó
+0	php:S2010"Replace "and" with "&&".(¼¿¤–üÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(îÿ©é
++	php:S2010"Replace "and" with "&&".(ıëŠ¡
++	php:S2010"Replace "and" with "&&".(×…’
+/	php:S2010"Replace "or" with "||".(èûá¯ÿÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(èûá¯ÿÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(™â…üıÿÿÿÿ
+/	php:S2010"Replace "or" with "||".(è”ô·ùÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(îõÉœ
++	php:S2010"Replace "and" with "&&".(îõÉœ
+0	php:S2010"Replace "and" with "&&".(“Š‰Šûÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(«¿şÿÿÿÿ
+*	php:S2010"Replace "or" with "||".(öªà
++	php:S2010"Replace "and" with "&&".(öªà
+/	php:S2010"Replace "or" with "||".(ÿòÛ±ûÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(ìÊÚûÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(·¦í˜üÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(·¦í˜üÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(·¦í˜üÿÿÿÿ
+*	php:S2010"Replace "and" with "&&".(ÒÏ„R
+*	php:S2010"Replace "and" with "&&".(Áúà|
+0	php:S2010"Replace "and" with "&&".(íÅ¸âşÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(ù„¼ºøÿÿÿÿ
+/	php:S2010"Replace "or" with "||".(ˆÌ¨ÿıÿÿÿÿ
+/	php:S2010"Replace "or" with "||".(ˆÌ¨ÿıÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(Œô¤â
++	php:S2010"Replace "and" with "&&".(Ã‚ãœ
+0	php:S2010"Replace "and" with "&&".(®ƒ¶›ûÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(ºò›˜
++	php:S2010"Replace "and" with "&&".(Üõî‹
+0	php:S2010"Replace "and" with "&&".(Õ•Îıÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(˜ÔŞç
++	php:S2010"Replace "and" with "&&".(ÙƒçŸ
++	php:S2010"Replace "and" with "&&".(øûù
+0	php:S2010"Replace "and" with "&&".(ª¢“Ôùÿÿÿÿ
+*	php:S2010"Replace "and" with "&&".(’ùÆ0
+0	php:S2010"Replace "and" with "&&".(û§ıÿşÿÿÿÿ
+*	php:S2010"Replace "or" with "||".(‡±‘‰
+/	php:S2010"Replace "or" with "||".(ïŠ¤üÿÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(¹ôğ¥ÿÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(ë™×Õ
++	php:S2010"Replace "and" with "&&".(¯Ôï
+0	php:S2010"Replace "and" with "&&".(Ñ“¶—ÿÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(ÎŸÎß
+*	php:S2010"Replace "and" with "&&".(üòŸ}
+/	php:S2010"Replace "or" with "||".(¤½ûÿÿÿÿ
+/	php:S2010"Replace "or" with "||".(¤½ûÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(¤½ûÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(¤½ûÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(øû¹£ıÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(‹ˆ—ıÿÿÿÿ
+‘php:S138"zThis function "createBody" has 190 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(æé—øÿÿÿÿ
+Z	php:S1117"GRename "$to" which has the same name as the field declared at line 514.(¬âïÚ
+Z	php:S1117"GRename "$to" which has the same name as the field declared at line 514.(®ù¼±

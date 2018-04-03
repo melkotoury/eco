@@ -322,13 +322,14 @@ footer ul a .fa {
     font-weight: 300
 }
 
-.form input {
+.form input ,
+.form textarea{
     margin: 15px auto;
     background: transparent;
     border: 1px dashed;
+    color: white;
 }
 
-*/
 .mfp-zoom-out {
   /* start state */
   /* animate in */

@@ -1,0 +1,26 @@
+
+s	php:S1448"`Class "SMTP" has 38 methods, which is greater than 20 authorized. Split it into smaller classes.(¦ÄåŸ
+h	php:S1142"PReduce the number of returns of this function 15, down to the maximum allowed 3.(ÁÄ¦©şÿÿÿÿ
+b	php:S1142"OReduce the number of returns of this function 4, down to the maximum allowed 3.(ûîßŠ
+g	php:S1142"OReduce the number of returns of this function 5, down to the maximum allowed 3.(Òÿ»Ïøÿÿÿÿ
+l	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(ÁÄ¦©şÿÿÿÿ
+l	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(àô•áüÿÿÿÿ
+l	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(ù½ƒ ûÿÿÿÿ
+Y	php:S1192"FDefine a constant instead of duplicating this literal "LOGIN" 3 times.(ü°Í
+e	php:S1192"MDefine a constant instead of duplicating this literal "errorHandler" 4 times.(Ëüÿÿÿÿÿ
+Y	php:S1192"FDefine a constant instead of duplicating this literal "error" 5 times.(Æ£›–
+Y	php:S1192"FDefine a constant instead of duplicating this literal " sec)" 3 times.(§ˆ»‘
+a	php:S1192"IDefine a constant instead of duplicating this literal "Username" 3 times.(Ñ¯óºúÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(ÖİÀ
++	php:S2010"Replace "and" with "&&".(äæšˆ
+*	php:S2010"Replace "and" with "&&".(‘¥Ü
+0	php:S2010"Replace "and" with "&&".(ÅÌúÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(™ÎÃŒúÿÿÿÿ
+/	php:S2010"Replace "or" with "||".(Ü§Şûÿÿÿÿ
+/	php:S2010"Replace "or" with "||".(ä½ìİûÿÿÿÿ
+*	php:S2010"Replace "or" with "||".(ó¼íµ
+0	php:S2010"Replace "and" with "&&".(Ñ¬‹Ïüÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(‡Úéœ
+/	php:S2010"Replace "or" with "||".(‡ğ‡¡úÿÿÿÿ
+0	php:S2010"Replace "and" with "&&".(‡ğ‡¡úÿÿÿÿ
++	php:S2010"Replace "and" with "&&".(äæøŞ
